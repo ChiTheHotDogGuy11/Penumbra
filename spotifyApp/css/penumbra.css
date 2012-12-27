@@ -1,0 +1,38 @@
+html {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	/* Ensure the body takes up the whole page */
+	height: 100%;
+	/* light blue */
+	background-color: #999999;
+}
+
+#pages, #pages > div.current {
+	/* use min-height to have the background expand if the content gets too large */
+	min-height: 100%;
+	position: relative;
+	margin: auto auto;
+}
+
+#pages > div {
+	display:none;
+}
+
+#pages > div.current {
+	display:block;
+}
+
+
+.header {
+	height: 70px;
+	background-color: white;
+}
+.header img {
+	display: block;
+	margin: auto;
+}
+	

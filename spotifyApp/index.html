@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Penumbra</title>
+	
+	<link rel="stylesheet" href="sp://penumbra/css/reset.css">
+	<link rel="stylesheet" href="sp://import/css/adam.css">
+	<link rel="stylesheet" href="sp://penumbra/css/penumbra.css">
+	<link rel="stylesheet" href="sp://penumbra/css/registrationPage.css">
+	<link rel="stylesheet" href="sp://penumbra/css/partyPage.css">
+	
+	<script src="sp://penumbra/javascript/jquery_min.js" type="text/javascript"></script>
+	<script src="sp://penumbra/javascript/globalsAndBindings.js" type="text/javascript"></script>
+	<script src="sp://penumbra/javascript/registrationPage.js" type="text/javascript"></script>
+	<script src="sp://penumbra/javascript/partyPage.js" type="text/javascript"></script>
+</head>
+<body>
+	<div id="pages">
+		<div class="current" id="registrationPage">
+			<div class="header">
+				<img src="sp://penumbra/images/penumLogo.png" width="363" height="77">
+			</div>
+			<div id="registrationContent">
+				<form id="startPartyInfo">
+					<div id="partyName">
+						<h2>First, name your party.</h2>
+						<input id ="partyNameInput" type="text" name="pName" placeholder="Party name">
+					</div>
+					<div id="firstSong">
+						<h2>Now, pick a song to kick things off.</h2>
+						<input id = "firstSongInput" type="text" placeholder="Song title or artist">
+					</div>
+					<div id="songSuggestions">
+					</div>
+					<input id="newPartyRequest" type="button" class="new-button" value="Get the party started ->">
+				</form>
+			</div>
+		</div>
+		<div id="partyPage">
+			<div class="header">
+				<img src="sp://penumbra/images/penumLogo.png" width="363" height="77">
+			</div>
+			<div id="activityContainer">
+				<div id="activityPic">
+					<h1 id="partyPeople">Party People</h1>
+					<div id="peopleContainer">
+						<ul id="leftPeople">
+						</ul>
+						<ul id="rightPeople">
+						</ul>
+					</div>
+				</div>
+				<div id="partyActivity">
+					<ul>
+					</ul>
+				</div>
+			</div>
+			<div id="playlist">
+			</div>
+		</div>
+	</div>
+</body>
+</html>

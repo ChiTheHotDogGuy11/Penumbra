@@ -1,0 +1,20 @@
+{
+	"AppDescription": {
+		"en": "Use a democratically-elected playlist"
+	},
+	"BundleType": "Application",
+	"BundleIdentifier": "penumbra",
+	"AppIcon": {
+		"36x18": "tutorial.png"
+	},
+	"AppName": {
+		"en": "Penumbra"
+	},
+	"SupportedLanguages": [
+		"en"
+	],
+	"RequiredPermissions": [
+		"http://www.justingreet.com",
+		"ws.spotify.com"
+	]
+}

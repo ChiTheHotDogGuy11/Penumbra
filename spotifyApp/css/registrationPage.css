@@ -1,0 +1,73 @@
+#registrationPage > div {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#registrationContent {
+	margin-top: 5%;
+	width: 700px;
+	height: 500px;
+	/* dark blue */
+	background-color: #262626;
+}
+
+#startPartyInfo {
+	margin-left:20%;
+}
+
+#songSuggestions {
+	margin: 10px 0px;
+	height: 250px;
+	width: 430px;
+	/* light blue */
+	background-color: #999999;
+	border: 2px solid white;
+}
+
+#firstSong {
+	margin-top: 30px;
+}
+
+#partyName {
+	padding-top: 15px;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+input[type=text] {
+	font-size: 17px;
+	margin-top: 3px;
+	width: 350px;
+	height: 30px;
+}
+
+input[type=button] {
+	font-size: 15px;
+	padding: 3px 3px;
+	margin-left:255px;
+	margin-top: 3px;
+}
+
+.track {
+	color: black;
+	font-size: 10pt;
+}
+
+.oddTrack {
+	/* Middle blue */
+	background-color: #006666
+}
+
+.track p {
+	padding-left: 3px;
+	padding-top: 8px;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.selectedTrack {
+	background-color: #262626;
+}

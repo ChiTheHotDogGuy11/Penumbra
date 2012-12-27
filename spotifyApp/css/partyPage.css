@@ -1,0 +1,139 @@
+#partyPage {
+	width:100%;
+}
+
+
+#activityContainer {
+	float: left;
+	width: 55%;
+	height: 550px;
+}
+
+#playlist {
+	float: left;
+	width: 45%;
+	height: 550px;
+}
+
+#activityPic {
+	height: 43%;
+	border-bottom: 1px dashed black;
+	text-align: center;
+	/*background-color: #00AABF;
+	box-shadow: 0px 0px 14px 18px #008190 inset; */
+	font-family: Verdana;
+	font-weight: 700;
+}
+
+#partyPeople {
+	margin: 0px auto;
+	padding-top: 25px;
+	color: black;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#peopleContainer {
+	margin: 0px auto;
+	margin-top: 20px;
+	height: 80%;
+	width: 70%;
+	position: relative;
+}
+
+#leftPeople, #rightPeople {
+	width: 45%;
+	height: 100%;
+}
+
+#leftPeople {
+	float: left;
+}
+
+#rightPeople {
+	float: left;
+	margin-left: 23px;
+}
+
+.person p {
+	padding-top: 15px;
+	text-align: center;
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#partyActivity {
+	height: 57%;
+}
+
+#partyActivity ul {
+	padding-top: 50px;
+	width: 100%;
+	height: 100%;
+	font-size: 17px;
+}
+
+.activity {
+	padding-left: 40px;
+	padding-right: 30px;
+	padding-bottom: 8px;
+	color: black;
+	font-size: 17x;
+}
+
+.activityDescr {
+	color: black;
+	height: 100%;
+	width: 100%;
+}
+
+.topTrack {
+	width: 100%;
+	border: 1px solid black;
+	background-color: #262626;
+}
+
+.topTrackVoteCount {
+	float: left;
+	background-color: black;
+	text-align: center;
+	width: 15%;
+	height: 100%;
+	color: white;
+}
+
+.topTrackVoteCount h1 {
+	font-size: 40px;
+	display: block;
+	padding-top: 17px;
+}
+
+.infoDiv {
+	float:left;
+	width: 85%;
+	height:100%;
+}
+
+.nowPlaying .topTrackVoteCount {
+	background-image: url('../images/nowPlaying.png');
+	background-repeat: no-repeat;
+}
+
+.trackInfo {
+	/*line-height: 80%;*/
+	padding-left: 5px;
+	padding-top: 3px;
+	font-size: 27px;
+	font-weight: bold;
+	color: #999999;
+}
+
+.artistName {
+	display: inline-block;
+	padding-left: 10px;
+	font-size: 19px;
+	font-weight: normal;
+	padding-top: 2px;
+	color: black;
+}
